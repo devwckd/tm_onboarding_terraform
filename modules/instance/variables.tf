@@ -18,7 +18,6 @@ variable "zone" {
 variable "project" {
   type        = string
   description = "Name of the project where the cloud compute instance will be created."
-  default     = "tm-devops-labs"
 }
 
 variable "image" {
